@@ -109,10 +109,8 @@ footer{
 
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
-}.c02 img{
-    width: 300px;
-}
 
+}
 @media screen and (max-width:1200px){
     .clase01{
         width: 50%;
@@ -148,6 +146,7 @@ footer{
         font-size: 10px;
         width: 95%;
         height: 30px;
+        padding: 5px;
     }
     .boton{
         width: 100%;
@@ -160,8 +159,5 @@ footer{
         height: 45px;
         font-size: 10px;
 
-    }
-    .c02 img{
-        width: 200px;
     }
 }
