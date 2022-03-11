@@ -1,0 +1,161 @@
+body{
+    background-color: #f0f2f5;
+}
+.clase01{
+    text-align: center;
+    background-color: red;
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    
+    -webkit-box-shadow: 2px 2px 5px rgb(236, 230, 230);
+    -moz-box-shadow: 2px 2px 5px rgb(233, 221, 221);
+    filter: shadow(color=#ece6e6, direction=0, strength=2);
+
+}
+.c02{
+
+    justify-content: center;
+    display: flex;  
+}
+.c02 h3{
+
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bordeTXT{
+    border-radius: 5px;
+    border-style: double;
+    font-size: 20px;
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    border-color: rgb(182, 178, 178);
+}
+.boton{
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: aliceblue;
+    border-width: 0px;
+}
+.boton1{
+    width: 70%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #42b72a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: aliceblue;
+    border-width: 0px;
+}
+.clase03{
+    margin-top: 0px;
+    text-align: center;
+
+}
+.clase031{
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+    width: 20%;
+
+}
+.c04{
+    background-color: rgb(245, 234, 234);
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    filter: shadow(color=#ece6e6, direction=0, strength=2);
+}
+
+
+.olvidaste{
+    text-decoration: none;
+    color: #1877f2;
+}
+footer{
+    width: 100%;
+    position: relative;
+    margin-top: -51;
+    padding: 5px 0px;
+    clear: both;
+    background: #ffffff;
+    color: #73738b;
+    padding: 10px;
+}
+.letra{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.fttr{
+    width: 50%;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.c02 span{
+
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:1200px){
+    .clase01{
+        width: 50%;
+    }
+    .clase031{
+        width: 50%;
+    }
+    .fttr{
+        width: 60%;
+    }
+    .c02 h3{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:700px){
+    .clase01{
+        width: 70%;
+    }
+    .clase031{
+        width: 70%;
+    }
+    .fttr{
+        width: 80%;
+    }
+    .c02 h3{
+        font-size: 10px;
+    }
+
+    .bordeTXT{
+        border-radius: 5px;
+        border-style: double;
+        font-size: 10px;
+        width: 95%;
+        height: 30px;
+    }
+    .boton{
+        width: 100%;
+        height: 45px;
+        font-size: 10px;
+
+    }
+    .boton1{
+        width: 70%;
+        height: 45px;
+        font-size: 10px;
+
+    }
+}
